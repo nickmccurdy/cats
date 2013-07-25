@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Cats::VERSION
   spec.authors       = ["Nicolas McCurdy"]
   spec.email         = ["thenickperson@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "A pointless placeholder gem that might do something cat-related eventually."
+  spec.summary       = "A pointless placeholder gem that might do something cat-related eventually."
   spec.homepage      = ""
   spec.license       = "MIT"
 
