@@ -1,13 +1,13 @@
 #!/usr/bin/env ruby
 
 current_directory = if File.symlink? __FILE__
-	File.dirname File.readlink __FILE__
+  File.dirname File.readlink __FILE__
 else
-	File.dirname __FILE__
+  File.dirname __FILE__
 end
 
 require File.join(File.expand_path('..', current_directory), 'lib', 'cats')
 
-# TODO Don't hard code this into the executable, move it to a real method
+# TODO: Don't hard code this into the executable, move it to a real method
 quantity = (ARGV[0] || '1').to_i
 Cats.fact(quantity).each { |fact| puts fact }
