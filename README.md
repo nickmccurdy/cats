@@ -20,6 +20,10 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## Credits
+- List of cat facts: [CatFactsApi](https://github.com/pieces029/CatFactsApi)
+  (MIT License)
+
 ## Contributing
 
 1. Fork it

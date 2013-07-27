@@ -1,5 +1,3 @@
-require 'json'
-require 'open-uri'
 require 'thor'
 
 module Cats
@@ -8,11 +6,11 @@ module Cats
 
   VERSION = '0.0.1'
 
+  @facts = File.open("#{File.dirname __FILE__}/facts.txt").read.split(/\n/)
+
   def fact(quantity = 1)
-    # number: Number of cat facts to retrieve (0-100).
-    url = "http://catfacts-api.appspot.com/api/facts?number=#{quantity}"
-    content = open(url).read
-    JSON.parse(content)['facts']
+    # TODO Consider allowing more than 202 cat facts (show duplicates?)
+    @facts.sample quantity
   end
 
 end
