@@ -9,7 +9,7 @@ module Cats
   @facts = File.open("#{File.dirname __FILE__}/facts.txt").read.split(/\n/)
 
   def fact(quantity = 1)
-    # TODO Consider allowing more than 202 cat facts (show duplicates?)
+    # TODO: Consider allowing more than 202 cat facts (show duplicates?)
     @facts.sample quantity
   end
 
