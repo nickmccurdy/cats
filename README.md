@@ -1,4 +1,6 @@
 # Cats
+[![Dependency Status](https://gemnasium.com/thenickperson/cats.png)](https://gemnasium.com/thenickperson/cats)
+[![Code Climate](https://codeclimate.com/github/thenickperson/cats.png)](https://codeclimate.com/github/thenickperson/cats)
 
 TODO: Write a gem description
 
