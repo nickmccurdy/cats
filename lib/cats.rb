@@ -7,7 +7,7 @@ module Cats
   extend self
 
   # The version of the Cats gem
-  VERSION = '0.0.1'
+  VERSION = '0.1.0'
 
   # An Array of cat facts. Each string contains one fact. The facts are read
   # from a simple text file, with one fact on each line.
