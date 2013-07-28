@@ -2,4 +2,5 @@
 
 require 'cats'
 
+# Start the CLI with Thor
 Cats::CLI.start ARGV
