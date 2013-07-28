@@ -8,11 +8,11 @@ Gem::Specification.new do |spec|
   spec.version       = Cats::VERSION
   spec.authors       = ['Nicolas McCurdy']
   spec.email         = ['thenickperson@gmail.com']
-  spec.description   = 'A pointless placeholder gem that might do something
-                       cat-related eventually.'
-  spec.summary       = 'A pointless placeholder gem that might do something
-                       cat-related eventually.'
-  spec.homepage      = ''
+  spec.description   = 'A library/tool that does a small number of cat-related
+                       tasks.'
+  spec.summary       = 'A library/tool that does a small number of cat-related
+                       tasks.'
+  spec.homepage      = 'https://github.com/thenickperson/cats'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
