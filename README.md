@@ -4,6 +4,8 @@
 
 TODO: Write a gem description
 
+## [Documentation](http://rubydoc.info/github/thenickperson/cats/frames)
+
 ## Installation
 
 Add this line to your application's Gemfile:
