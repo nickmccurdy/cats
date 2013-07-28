@@ -17,7 +17,7 @@ module Cats
   #
   # TODO: Consider allowing more than 202 cat facts (show duplicates?)
   #
-  # @param [Fixnum] quantity the number of cat facts to recieve (0-many)
+  # @param [Fixnum] quantity the number of cat facts to receive (0-many)
   #
   # @return [Array] an Array of Strings of cat facts
   def fact(quantity = 1)

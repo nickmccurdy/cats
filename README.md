@@ -4,7 +4,7 @@
 [![Code Climate](https://codeclimate.com/github/thenickperson/cats.png)](https://codeclimate.com/github/thenickperson/cats)
 
 A library/tool that does a small number of cat-related tasks. Cats currently
-acts as a command line client and library for recieving cat facts.
+acts as a command line client and library for receiving cat facts.
 
 ## [Documentation](http://rubydoc.info/github/thenickperson/cats/frames)
 
