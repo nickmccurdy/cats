@@ -1,11 +1,11 @@
 require 'spec_helper'
 
 describe Cats do
-  it 'should have a version number' do
+  it 'has a version number' do
     ::Cats::VERSION.wont_be_nil
   end
 
-  it 'should generate cat facts' do
+  it 'generates cat facts' do
     Cats.fact(0).must_equal []
 
     Cats.fact.length.must_equal 1
