@@ -1,13 +1,13 @@
 # Cats
 [![Gem Version](https://badge.fury.io/rb/cats.png)](http://badge.fury.io/rb/cats)
-[![Build Status](https://secure.travis-ci.org/thenickperson/cats.png?branch=master)](http://travis-ci.org/thenickperson/cats)
-[![Dependency Status](https://gemnasium.com/thenickperson/cats.png)](https://gemnasium.com/thenickperson/cats)
+[![Build Status](https://secure.travis-ci.org/nicolasmccurdy/cats.png?branch=master)](http://travis-ci.org/nicolasmccurdy/cats)
+[![Dependency Status](https://gemnasium.com/nicolasmccurdy/cats.png)](https://gemnasium.com/nicolasmccurdy/cats)
 [![Code Climate](https://codeclimate.com/github/thenickperson/cats.png)](https://codeclimate.com/github/thenickperson/cats)
 
 A library/tool that does a small number of cat-related tasks. Cats currently
 acts as a command line client and library for receiving cat facts.
 
-## [Documentation](http://rubydoc.info/github/thenickperson/cats/frames)
+## [Documentation](http://rubydoc.info/github/nicolasmccurdy/cats/frames)
 
 ## Installation
 Add this line to your application's Gemfile:
