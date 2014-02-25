@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
                        tasks.'
   spec.summary       = 'A library/tool that does a small number of cat-related
                        tasks.'
-  spec.homepage      = 'https://github.com/thenickperson/cats'
+  spec.homepage      = 'https://github.com/nicolasmccurdy/cats'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
