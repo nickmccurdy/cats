@@ -1,10 +1,12 @@
-require 'cats/version'
 require 'thor'
 
 # The central module for Cats, a library/tool that does a small number of
 # cat-related tasks
 module Cats
   module_function
+
+  # The version of the Cats gem
+  VERSION = '0.1.0'.freeze
 
   # An Array of cat facts. Each string contains one fact. The facts are read
   # from a simple text file, with one fact on each line.
