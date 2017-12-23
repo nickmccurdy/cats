@@ -5,14 +5,14 @@ require 'cats/version'
 Gem::Specification.new do |spec|
   spec.name          = 'cats'
   spec.version       = Cats::VERSION
-  spec.authors       = ['Nicolas McCurdy']
-  spec.email         = ['thenickperson@gmail.com']
+  spec.authors       = ['Nick McCurdy']
+  spec.email         = ['nick@nickmccurdy.com']
 
   spec.description   = 'A library/tool that does a small number of cat-related
                        tasks.'
   spec.summary       = 'A library/tool that does a small number of cat-related
                        tasks.'
-  spec.homepage      = 'https://github.com/nicolasmccurdy/cats'
+  spec.homepage      = 'https://github.com/nickmccurdy/cats'
   spec.license       = 'MIT'
 
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
