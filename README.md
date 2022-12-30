@@ -1,7 +1,6 @@
 # Cats
 [![Gem Version](https://badge.fury.io/rb/cats.png)](http://badge.fury.io/rb/cats)
 [![Build Status](https://secure.travis-ci.org/nickmccurdy/cats.png?branch=master)](http://travis-ci.org/nickmccurdy/cats)
-[![Dependency Status](https://gemnasium.com/nickmccurdy/cats.png)](https://gemnasium.com/nickmccurdy/cats)
 [![Code Climate](https://codeclimate.com/github/nickmccurdy/cats.png)](https://codeclimate.com/github/nickmccurdy/cats)
 
 A library/tool that does a small number of cat-related tasks. Cats currently
